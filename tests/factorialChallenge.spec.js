@@ -10,7 +10,9 @@ describe('factorialChallenge', () => {
     expect(factorialChallenge).to.be.a('function');
   });
 
-  it('should fin the factorial of a number', () => {
+  it('should find the factorial of a number', () => {
     expect(factorialChallenge(4)).to.equal(24);
+    expect(factorialChallenge(100).to.equal(25003184954859.51));
+    expect(factorialChallenge(6).to.equal(720));
   });
 });
